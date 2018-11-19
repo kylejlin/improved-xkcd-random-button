@@ -1,10 +1,14 @@
 # Improved xkcd Random Button
 
-[Install it here!](TODO)
+Fixes xkcd's unreliable "Random" button.
 
-TODO Explanation
+## [Install it here!](TODO)
 
-## Development
+## Description
+
+The default Random button on [xkcd.com](https://xkcd.com/) links to `https://c.xkcd.com/random/comic/`. Sometimes this page is unresponsive or slow. This extension blocks the request to `c.xkcd.com` and instead navigates to a random page using client-side Javascript, resulting in a faster and more reliable "Random" button.
+
+## Contributing
 
 ```sh
 git clone https://github.com/kylejlin/improved-xkcd-random-button.git
@@ -12,7 +16,14 @@ cd explain-xkcd-random-button
 chmod +x build
 ```
 
-Then you can use
+### Development
+
+1.  Open [chrome://extensions](chrome://extensions).
+2.  Enable "Developer mode" (top right corner).
+3.  Click "Load unpacked" (top left corner).
+4.  Select `improved-xkcd-random-button/src` as the directory and confirm.
+
+### Building
 
 ```sh
 ./build
