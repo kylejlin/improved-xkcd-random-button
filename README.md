@@ -6,7 +6,9 @@ Fixes xkcd's unreliable "Random" button.
 
 ## Description
 
-The default Random button on [xkcd.com](https://xkcd.com/) links to `https://c.xkcd.com/random/comic/`. Sometimes this page is unresponsive or slow. This extension blocks the request to `c.xkcd.com` and instead navigates to a random page using client-side Javascript, resulting in a faster and more reliable "Random" button.
+By default, when you click on xkcd's Random button, it will make a request to the server (c.xkcd.com/random/comic) to redirect you to a random comic. While this is usually fine, sometimes the server is slow or unresponsive. This extension eliminates the reliance on the server by instead randomly selecting a comic via a client-side script. This will ultimately result in a faster and more reliable experience.
+
+Additionally, this extension will request Chrome to prerender the randomly selected comic, which will improve its load time, making your experience even faster.
 
 ## Contributing
 
