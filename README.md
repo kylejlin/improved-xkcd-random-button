@@ -2,7 +2,7 @@
 
 Fixes xkcd's unreliable "Random" button.
 
-## [Install it here!](TODO)
+## [Install it here!](https://chrome.google.com/webstore/detail/improved-xkcd-random-butt/nmpkfceobojhjmjgnighmlggcflffmlk)
 
 ## Description
 
