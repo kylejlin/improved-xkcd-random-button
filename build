@@ -4,4 +4,6 @@ if [ ! -d "./artifacts" ]; then
   mkdir artifacts
 fi
 
-zip -r ./artifacts/improved-xkcd-random-button.zip ./src/images/ ./src/contentScript.js ./src/manifest.json
+cd src
+
+zip -r ../artifacts/improved-xkcd-random-button.zip ./images/ ./contentScript.js ./manifest.json
